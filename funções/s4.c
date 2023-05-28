@@ -38,7 +38,7 @@ int main()
     result = maior(num1, num2, num3);
     if (result == 0)
     {
-        printf("vc tem valores igual nas variaveis\n retorno eh %d",result);
+        printf("vc tem valores igual nas variaveis\n Seu retorno eh %d",result);
     }
     else
         printf("\n\n O maior numeros entre  %d | %d | %d  eh %d", num1, num2, num3, result);

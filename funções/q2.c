@@ -7,14 +7,7 @@ Exemplo: se a função receber 10101 deverá retornar 22.*/
 #include <stdlib.h>
 
 void dec(int num){
-    int i;
-    for(i=0;num!=0;i++){
 
-    }
-    while (num != 0)
-    {
-        
-    }
 }
 int main()
 {

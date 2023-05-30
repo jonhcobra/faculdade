@@ -19,7 +19,7 @@ void mutiplo(int *vetor, int qtd)
             printf("\n%d eh mutiplo de %d,retorno 1", vetor[i + 1], vetor[i]);
         }
         else
-            printf("\n%d nao tem relação de mutiplicidade %d,retorno -1", vetor[i + 1], vetor[i]);
+            printf("\n%d nao tem relacao de mutiplicidade com %d,retorno -1", vetor[i + 1], vetor[i]);
     }
 }
 int main()

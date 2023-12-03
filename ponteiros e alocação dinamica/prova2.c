@@ -18,7 +18,7 @@ int *geraImagem(int lin, int col)
     return img;
 }
 
-int *getPixel(int *img, int i, int j, int col)
+int *getColor(int *img, int i, int j, int col)
 {
     int pixel = img[col * i + j];
     return pixel;

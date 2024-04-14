@@ -87,7 +87,6 @@ int main()
         for (int i = 0; i < n; i++)
         {
             opcao = opcao_isa();
-            printf("opcao %d\n", opcao);
             switch (opcao)
             {
             case 1:

@@ -4,5 +4,6 @@
         "stdio.h": "c",
         "a": "c",
         "iostream": "cpp"
-    }
+    },
+    "java.debug.settings.onBuildFailureProceed": true
 }

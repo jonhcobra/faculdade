@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "q6",
+            "request": "launch",
+            "mainClass": "LP3.prova1.q6",
+            "projectName": "C_1f548b"
+        },
+        {
+            "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "LP3.SimuladoProva1.Q1eQ2.src.App",

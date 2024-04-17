@@ -1,4 +1,4 @@
-package LP3.prova1.q4e5.q6;
+package LP3.prova1;
 
 import java.util.Scanner;
 

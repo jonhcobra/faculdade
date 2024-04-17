@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Q6",
+            "request": "launch",
+            "mainClass": "LP3.prova1.Q6",
+            "projectName": "C_1f548b"
+        },
+        {
+            "type": "java",
+            "name": "Q4eQ5",
+            "request": "launch",
+            "mainClass": "LP3.prova1.Q4eQ5",
+            "projectName": "C_1f548b"
+        },
+        {
+            "type": "java",
             "name": "q6",
             "request": "launch",
             "mainClass": "LP3.prova1.q6",

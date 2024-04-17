@@ -35,18 +35,24 @@ public class Q4eQ5 {
         public int getMax() {
             return max;
         }
+
+        public int getCiclo() {
+            return ciclo;
+        }
     }
-public static void main(String[]args){
+        public static void main(String[]args){
+        Contador qtLetras = new Contador(0, 5);
+String frase ='A abelha abelhuda abelhudou as abelhas.Fala,arara loura.A arara loura falará.';
 
-Contador qtLetras = new Contador(0,5);
-String frase ="A abelha abelhudaabelhudou as abelhas. Fala, arara loura.A arara loura falará.”;
-
-int tam=frase.lenght();
-for(int i=0;i<tam;i++){
-if(frase.charAt(i)=='a')qtLetras.incrementa();
-}
-int qtCiclos=qtLetras.getCiclo();
-int ultCiclo=qtLetras.getCont();
-int MaxCiclo=qtLetras.getMax();
-System.out.println("foram "+qtCiclos +"sendo cont="+ultCiclo +"no ultimo ciclo e o limite do ciclo sendo "+ maxCiclo);
+        int tam = frase.lenght();for(
+        int i = 0;i<tam;i++)
+        {
+            if (frase.charAt(i) == 'a')
+                qtLetras.incrementa();
+        }
+        int qtCiclos = qtLetras.getCiclo();
+        int ultCiclo = qtLetras.getCont();
+        int MaxCiclo = qtLetras
+                .getMax();System.out.println("foram "+qtCiclos+"sendo cont="+ultCiclo+"no ultimo ciclo e o limite do ciclo sendo "+maxCiclo);
+    }
 }

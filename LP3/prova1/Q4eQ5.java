@@ -39,7 +39,7 @@ public class Q4eQ5 {
 public static void main(String[]args){
 
 Contador qtLetras = new Contador(0,5);
-String frase ={"A abelha abelhudaabelhudou as abelhas. Fala, arara loura.A arara loura falará.”};
+String frase ="A abelha abelhudaabelhudou as abelhas. Fala, arara loura.A arara loura falará.”;
 
 int tam=frase.lenght();
 for(int i=0;i<tam;i++){

@@ -52,7 +52,7 @@ public class Q6 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        Elevador predioElevador = new Elevador(20, 50);
+        Elevador predioElevador = new Elevador(20,50);
         int cargaMaxi, cargaAt, andarMaxi, andarAt;
         int opcao = 1;
         System.out.println("1->Entrar\n2->Sair\n3->Subir\n4->Descer\n5->Print valores");
